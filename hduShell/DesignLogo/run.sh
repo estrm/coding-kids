@@ -1,0 +1,1 @@
+g++ -o main design_logo.cpp -std=c++11
