@@ -1,2 +1,2 @@
-# linux
-linux notes
+# Introduction
+It includes my notes & some tools for linux
