@@ -1,1 +1,2 @@
 1. gitbackup.sh [multi backup repositories from githup](https://github.com/Guguant/linux/blob/master/hduShell/gitbackup.sh)
+2. DesignLogo [design logo with Charactor Style](https://github.com/Guguant/linux/tree/master/hduShell/DesignLogo)
