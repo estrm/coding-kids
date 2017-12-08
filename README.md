@@ -1,2 +1,2 @@
 # Introduction
-It includes my notes & some tools for linux
+The kind of shell script.
