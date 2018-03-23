@@ -5,4 +5,4 @@
 | 文件名            | 功能                     |
 | ---------------- | ------------------------ |
 | github-backup.sh | 備份單個ID的所有github倉庫 |
-| smile.html       | 告白气球 [ndroi](https://github.com/ndroi/JSDrawLove)                |
+| smile.html       | 告白气球 【作者 [ndroi](https://github.com/ndroi/JSDrawLove)】                |
