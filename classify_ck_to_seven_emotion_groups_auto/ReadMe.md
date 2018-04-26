@@ -1,4 +1,4 @@
-#Intro 介绍
+# Intro 介绍
 
 `classify_ck_to_seven_emotion_group.sh` is a tool to help classify **extended-cohn-kanade-images-databases** to seven basic different emotion very quickly.
 
