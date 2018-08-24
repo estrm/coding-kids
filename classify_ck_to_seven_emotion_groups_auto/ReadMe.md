@@ -38,7 +38,7 @@ The sum is 327.
 
 3. The last
 
-   Just run the shell, and you will see classified image sequences in folder **ck**.
+   Just run the script, and you will see classified image sequences in folder **ck**.
 
    ```bash
    sh classify_ck_to_seven_emotion_group.sh
