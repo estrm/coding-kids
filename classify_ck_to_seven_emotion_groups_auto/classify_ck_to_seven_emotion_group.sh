@@ -1,7 +1,7 @@
-#This shell script can classify CK+ Facial
-#Database to different Expression sets.
+# This shell script can classify CK+ Facial
+# Database to different Expression sets.
 
-#This can create a directory tree to save classified image.
+# This can create a directory tree to save classified image.
 fun_mkdir_ck(){
 	if [ -d "ck" ]
 	then
@@ -17,7 +17,7 @@ fun_mkdir_ck(){
 	do
 		echo $expression
 		mkdir $ck_path$expression
-	done	
+	done
 }
 
 fun_ck_info(){
@@ -57,13 +57,13 @@ do
 				head_string=${head_string%%/*}
 				tail_string=${file%/*}
 				tail_string=${tail_string##*/}
-				
+
 				echo  $emotion_label" "$head_string"/"$tail_string >> $ck_info
-				
+
 				src_ck_path=$work_path"/cohn-kanade-images/"$head_string"/"$tail_string"/*"
 				dst_ck_path=$work_path"/ck/"
 				copy_dir=${head_string}"_"${tail_string}"/"
-				
+
 				case $emotion_label in
 					"1.0000000e+00")
 					dst_ck_path=${dst_ck_path}"1anger/"${copy_dir}
@@ -96,10 +96,10 @@ do
 						*)
 					;;
 				esac
-				
+
 				mkdir $dst_ck_path
 				cp -r $src_ck_path $dst_ck_path
-				
+
 				let finished=finished+1
 			done
 		done
@@ -119,10 +119,10 @@ echo "Sum for different emotion" >> $ck_info
 echo "Emotion      Num" >> $ck_info
 echo "--------------------------------" >> $ck_info
 echo "anger       "${emotion_num[1]} >> $ck_info
-echo "contempt    "${emotion_num[2]} >> $ck_info 
+echo "contempt    "${emotion_num[2]} >> $ck_info
 echo "disgust     "${emotion_num[3]} >> $ck_info
 echo "fear        "${emotion_num[4]} >> $ck_info
-echo "happy       "${emotion_num[5]} >> $ck_info 
+echo "happy       "${emotion_num[5]} >> $ck_info
 echo "sadness     "${emotion_num[6]} >> $ck_info
 echo "surprise    "${emotion_num[7]} >> $ck_info
 echo "SUM: "$finished >> $ck_info
