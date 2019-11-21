@@ -1,7 +1,7 @@
 #!/bin/bash
-# tool
-# auto backup all repositories from github
-# 自动备份所有的github仓库
+# Author: Soleil AndyZ
+# Date  : 2019-11-22, v1.0
+# This is a tool to auto backup all repositories from github.
 
 if [[ $# -eq 0 ]] || [[ $1 = "-h" ]];then
 	echo -e "\033[31m--------------------------------------------------------\033[0m"
