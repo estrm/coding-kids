@@ -46,4 +46,4 @@ The sum is 327.
 
 # Contact 联系
 
-Email: guguant(you know)yahoo(dot)com
+Email: zscandyz(you know)gmail(dot)com
