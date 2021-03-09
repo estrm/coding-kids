@@ -10,4 +10,4 @@ Some funny code snippet which you can find here.
 | mk_ckplus_feature_tree.sh                | 按照模板创建指定的目录树 |
 | github_repository_backup | 備份單個 **USER ID** 的所有github倉庫 |
 | love_ballon :star:                     | 告白气球 【Author [ndroi](https://github.com/ndroi/JSDrawLove)】 |
-| spelling_typo_chec检测 | 自动检测代码单词拼写错误 |
+| spelling_typo_check | 自动检测代码单词拼写错误 |
