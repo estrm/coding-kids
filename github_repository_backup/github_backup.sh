@@ -6,10 +6,10 @@
 if [[ $# -eq 0 ]] || [[ $1 = "-h" ]];then
 	echo -e "\033[31m--------------------------------------------------------\033[0m"
 	echo "Usage1: $0 URL"
-	echo "   e.g: $0 https://github.com/Guguant?tab=repositories"
+	echo "   e.g: $0 https://github.com/estrm?tab=repositories"
 	echo ""
 	echo "Usage2: $0 Username Page"
-	echo "   e.g: $0 Guguant 1"
+	echo "   e.g: $0 estrm 1"
 	echo -e "\033[31m--------------------------------------------------------\033[0m"
 	exit 1;
 fi
@@ -17,7 +17,7 @@ fi
 url=""
 username=""
 if [ $# == 1 ];then
-	url="https://github.com/Guguant?tab=repositories"
+	url="https://github.com/estrm?tab=repositories"
 	username=${url%\?*}
 	username=${username##*/}
 else
