@@ -1,13 +1,13 @@
-# Introduction 介紹
+# Introduction
 
-Some funny code snippet which you can find here.
+A Collection of interesting and elegant code snippets.
 
-# List 目录
+# Lists
 
-| Filename                          | Function |
+| Filename                          | Description |
 | ---------------------------------------- | ---------------------------------------- |
-| classify_ck_to_seven_emotion_groups_auto | 自动将CK+表情数据库的表情分成7类 |
-| mk_ckplus_feature_tree.sh                | 按照模板创建指定的目录树 |
-| github_repository_backup | 備份單個 **USER ID** 的所有github倉庫 |
-| love_balloon                         | 告白气球 [ndroi](https://github.com/ndroi/JSDrawLove) |
-| spelling_typo_check | 自动检测代码单词拼写错误 |
+| classify_ck_to_seven_emotion_groups_auto | divide CK+ Facial Expression Database into Seven groups |
+| mk_ckplus_feature_tree.sh                | create specified directory tree according to your Template |
+| github_repository_backup | backup github repository for specified **User ID** |
+| love_balloon                         | Talk to Her, you love her. Designed by [ndroi](https://github.com/ndroi/JSDrawLove) |
+| spelling_typo_check | check code spelling mistakes and typos automatically |
