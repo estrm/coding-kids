@@ -1,7 +1,12 @@
 #!/bin/bash
-# Author: Soleil AndyZ
-# Date  : 2019-11-22, v1.0
-# This is a tool to auto backup all repositories from github.
+#
+# (c) 2021-2022, Sun Yiming <zscandyz@gmail.com>
+#
+# Description:
+#   This is a tool to auto backup all repositories from github.
+#
+# Version:
+#   2019/11/22, v1.0, first release, Sun Yiming
 
 if [[ $# -eq 0 ]] || [[ $1 = "-h" ]];then
 	echo -e "\033[31m--------------------------------------------------------\033[0m"

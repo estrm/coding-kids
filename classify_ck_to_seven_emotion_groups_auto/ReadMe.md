@@ -1,4 +1,4 @@
-# Intro 介绍
+# Introduction
 
 `classify_ck_to_seven_emotion_group.sh` is a tool to help classify **extended-cohn-kanade-images-databases** to seven basic different emotion very quickly.
 
@@ -10,13 +10,13 @@ The number of different emotion images sequence with emotion_labels are as follo
 
 The sum is 327.
 
-# Features 特性
+# Features
 
 * Cross-platform: works on Linux/Unix, Windows
 * Tiny static and quick
 * Very easy to use
 
-# Usage 用法
+# Usage
 
 1. At first
 
@@ -44,6 +44,6 @@ The sum is 327.
    sh classify_ck_to_seven_emotion_group.sh
    ```
 
-# Contact 联系
+# Contact
 
-Email: zscandyz(you know)gmail(dot)com
+Email: zscandyz[at]gmail[dot]com

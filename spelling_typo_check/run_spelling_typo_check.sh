@@ -1,19 +1,20 @@
 #!/bin/bash
 #
-# (c) 2021, Sun Yiming <zscandyz@gmail.com>
+# (c) 2021-2022, Sun Yiming <zscandyz@gmail.com>
 #
-# This script is a tool that it can check
-# code spelling mistakes and typos automatically.
+# Description:
+#   This script is a tool that it can check
+#   code spelling mistakes and typos automatically.
 #
-# usage: put the 'spelling.txt' and 'run_spelling_typo_check.sh'
-#        under the same directory, and then
-#        Run 'run_spelling_typo_check.sh'
+# Usage:
+#   put the 'spelling.txt' and 'run_spelling_typo_check.sh' under the same directory,
+#   and then run 'run_spelling_typo_check.sh'.
 #
-# version:
-# 2021/03/02, v1.0, first release, Sun Yiming
-# 2021/03/17, v2.0, optimize output result, Sun Yiming 
+# Version:
+#   2021/03/02, v1.0, first release, Sun Yiming
+#   2021/03/17, v2.0, optimize output result, Sun Yiming
 #
-# test datasets:
+# Test Datasets:
 #   https://github.com/torvalds/linux/blob/master/scripts/spelling.txt
 
 input=spelling.txt

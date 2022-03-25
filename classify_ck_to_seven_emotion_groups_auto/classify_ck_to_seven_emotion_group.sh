@@ -1,7 +1,18 @@
-# This shell script can classify CK+ Facial
-# Database to different Expression sets.
+#
 
-# This can create a directory tree to save classified image.
+#
+
+#!/bin/bash
+#
+# (c) 2022, Sun Yiming <zscandyz@gmail.com>
+#
+# Description:
+#   This shell script can classify CK+ Facial Database to different Expression sets.
+#   This can create a directory tree to save classified image.
+#
+# Version:
+#   2020/3/8, v1.0, first release, Sun Yiming
+
 fun_mkdir_ck(){
 	if [ -d "ck" ]
 	then

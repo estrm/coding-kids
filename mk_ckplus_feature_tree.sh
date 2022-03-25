@@ -1,4 +1,4 @@
-#To create LBP-TOP feature storage directory tree.
+# To create LBP-TOP feature storage directory tree.
 if [ -d "CKFeatureData" ]
 then
 	echo "CKFeature have exists."
