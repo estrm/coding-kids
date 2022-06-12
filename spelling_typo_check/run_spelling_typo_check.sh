@@ -13,6 +13,8 @@
 # Version:
 #   2021/03/02, v1.0, first release, Sun Yiming
 #   2021/03/17, v2.0, optimize output result, Sun Yiming
+#   2022/06/13, v2.0.1, use an arithmetic expansion to increase the variable value by 1
+#                       for typo_sum and index, Sun Yiming
 #
 # Test Datasets:
 #   https://github.com/torvalds/linux/blob/master/scripts/spelling.txt
@@ -46,10 +48,10 @@ do
 		echo $temp_grep_result >> $output
 		echo >> $output
 
-		((typo_sum++))
+		typo_sum=$((typo_sum+1))
 	fi
 
-	((index++))
+	index=$((index+1))
 done < ${input}
 
 echo ""
